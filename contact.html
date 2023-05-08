@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/icon-logo.png">
+    <title>curriculum vitae</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    
+     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/barranav.css">
+    <link rel="stylesheet" href="assets/css/cathering.css">
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="navbar">
+        <a href="#" class="logo">
+          <img height=45px width=45px src="img/caricatura.jpg" alt="programador">
+          <div>
+            RagNit Kant<br>
+            Programmer
+          </div>
+        </a>
+        <input class="checkbox" type="checkbox">
+        <img class="icons iconbarra" src="img/bars.svg" alt="abrir menú" />
+        <img class="icons iconcerrar" src="img/xmark.svg" alt="cerrar menú" />
+        
+        <ul class="menu">
+          <li><a href="index.html">Perfil</a></li>
+          <li><a href="experience.html">Experiencia</a></li>
+          <li><a href="skill.html">Habilidades</a></li>
+          <li><a class="activo" href="#">catheringo</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    
+    <div class="h-padding" class="v-padding">
+    <section class="cathering">
+        <h2 class="cathering-title">catheringo</h2>
+        <div class="cathering-details">
+            <div class="cathering-detail-group">
+                <p class="cathering-label">Dirección:</p>
+                <p class="cathering-text">Tucumán,  Argentina</p>
+            </div>
+            <div class="cathering-detail-group">
+                <p class="cathering-label">Email:</p>
+                <p class="cathering-text">aldo21406@gmail.com</p>
+            </div>
+            <div class="cathering-detail-group">
+                <p class="cathering-text">Deje su mensaje y con gusto le responderé</p>
+            </div>
+         </div>
+         <form class="cathering-form">
+             <div class="cathering-form-group">
+                 <label for="name">Nombre:</label>
+                 <input required type="text" name="name" id="name">             </div>
+             <div class="cathering-form-group">
+                 <label for="email">Email:</label>
+                 <input required type="email" name="email" id="email">             </div>
+             <div class="cathering-form-group">
+                 <label for="message">Mensaje:</label>
+             <textarea required name="message" id="message" rows="6"> </textarea>
+             </div>
+             <button type="submit" class="cathering-form-submit">Enviar</button>
+         </form>
+         <nav class="social">
+             <ul class="social-list">
+                 <li class="social-item">
+                     <a href="#"class="social-link"><img src="img/twitter.svg" alt="perfil twitter">
+                     </a>
+                 </li>
+                 
+                 <li class="social-item">
+                     <a href="#"class=social-link"><img src="img/youtube.svg" alt="perfil youtube">
+                     </a>
+                 </li>
+                 
+                 <li class="social-item">
+                     <a href="#"class="social-link"><img src="img/github.svg" alt="perfil github">
+                     </a>
+                 </li>
+                 
+                 <li class="social-item">
+                     <a href="#" class="social-link"><img src="img/linkedin.svg" alt="perfil linkedin">
+                     </a>
+                 </li>
+                 
+             </ul>
+         </nav>
+    </section>
+    </div>
+    <br><br>
+    <footer class="copywrite">&copy;Reinaldo Carlos Romano - Todos los Derechos Reservados</footer>
+  </body>
+</html>
