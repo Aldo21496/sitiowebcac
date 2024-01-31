@@ -47,3 +47,12 @@ nos da un listado de los commits y nos fijamos el hash
 luego poner
 git restore --source el-hash archivo.ext
 
+trabajo en equipo
+git branch
+para saber en que rama nos encontramos
+git switch -p rama-nueva
+git switch master
+
+git push origen rama-actual
+porque nos encontramos en otra rama y debemos hacer referencia a la rama master
+
