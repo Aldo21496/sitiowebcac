@@ -1,0 +1,32 @@
+git config --global user.name "Reinaldo Carlos"
+git config --global user.email aldo21406@gmail.com
+Esto es necesario para configurar git recien instalado
+
+git log
+git log --oneline
+git log -p
+Esto es necesario para ver los commits
+git log --author="user_name"
+para ver mas informacion del autor
+git log --since=1.month.ago --until=1.day.ago
+En el comando anterior, estamos buscando las informaciones del commit desde hace un mes hasta hace un día.
+git log --pretty="format:%h %s"
+para dar formato a la salida de git log
+
+
+git clone https://github.com/Aldo21496/sitiowebcac.git
+Es un ejemplo de como clonar un repositorio git, previamente crear las carpetas para organizar los proyectos.
+
+git clone <repositorio> <mi-proyecto-clone>
+solo clona una carpeta especifica
+
+git clone -branch new_feature <repositorio>
+solo clona desde otra rama o branch
+
+git status
+nos muestra los archivos con cambios
+git add . 
+nos agrega todos los archivos modificados sino poner en vez de punto solo el archivo
+luego hacer 
+git commit -m "aqui lo que hiciste"
+en en el mensaje usar el verbo primero crea o agrega o corrige etc
