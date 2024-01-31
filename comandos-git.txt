@@ -31,6 +31,13 @@ luego hacer
 git commit -m "aqui lo que hiciste"
 en en el mensaje usar el verbo primero crea o agrega o corrige etc
 
+git push 
+Esto hace que se envien los cambios, pedira tu usuario de github y el token generado 
+para que no pida en cada momento que usemos git push usar los siguiente
+git config --global credential.helper cache
+y para eliminar el token usar
+git config --global --unset credential.helper
+
 git diff archivo.ext
 muestra las modificaciones
 
