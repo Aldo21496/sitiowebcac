@@ -30,3 +30,13 @@ nos agrega todos los archivos modificados sino poner en vez de punto solo el arc
 luego hacer 
 git commit -m "aqui lo que hiciste"
 en en el mensaje usar el verbo primero crea o agrega o corrige etc
+
+git diff archivo.ext
+muestra las modificaciones
+
+para restaurar una version anterior poner
+git log --oneline
+nos da un listado de los commits y nos fijamos el hash
+luego poner
+git restore --source el-hash archivo.ext
+
